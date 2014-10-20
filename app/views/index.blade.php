@@ -64,35 +64,37 @@
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
               <div class="movable-content">
-                <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
+                <div class="images"><img src="{{asset('img/Mobile-Asphalt-Mixing-Plant-1.jpg')}}" alt="" /></div>
               </div>
               <div class="infos">
                 <div class="link"></div>
-                <p> <a href="single-work.html">移动式 图片</a><br />
-                  <span>移动式搅拌站</span></p>
+                <p> <a href="#">Mobile Asphalt Mixing Plant</a><br />
+                  <span>Mobile Asphalt Mixing Plant</span></p>
               </div>
             </div>
 
+
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
+                <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-1.jpg')}}" alt="" /></div>
              </div>
         <div class="infos">
             <div class="link"></div>
-                <p> <a href="single-work.html">固定式 图片</a><br />
-                <span>固定式搅拌站</span></p>
+                <p> <a href="#">Stationary Asphalt Mixing Plant</a><br />
+                <span>Stationary Asphalt Mixing Plant</span></p>
             </div>
         </div>
 
-
-    <div class="element home clearfix col1-3 border services">
-      <h3>Mobile Asphalt Mixing Plant</h3>
-      <div class="borderline"></div>
-      <ul class="list check">
-        <li>Suitable for urban and rural road building</li>
-        <li>Easily disassemble and transfer</li>
-      </ul>
-    </div>
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/Mobile-Asphalt-Mixing-Plant-2.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p> <a href="#">Mobile Asphalt Mixing Plant</a><br />
+                <span>Mobile Asphalt Mixing Plant</span></p>
+            </div>
+        </div>
 
     <div class="element home clearfix col2-3 services">
     <h3>Mobile Asphalt Mixing Plant Parameters</h3>
@@ -125,10 +127,16 @@
       </ul>
     </div>
 
-    <div class="element home clearfix col1-3 border services">
-      <h3>Stationary asphalt mixing plant</h3>
-      <div class="borderline"></div>
-    </div>
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-2.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p> <a href="#">Stationary Asphalt Mixing Plant</a><br />
+                <span>Stationary Asphalt Mixing Plant</span></p>
+            </div>
+        </div>
 
     <div class="element home clearfix col2-3 services">
     <h3>Stationary Asphalt Mixing Plant Parameters</h3>
@@ -143,9 +151,15 @@
           </ul>
         </div>
 
-        <div class="element home clearfix col1-3 border services">
-          <h3>Stationary asphalt mixing plant</h3>
-          <div class="borderline"></div>
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-3.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p> <a href="#">Stationary Asphalt Mixing Plant</a><br />
+                <span>Stationary Asphalt Mixing Plant</span></p>
+            </div>
         </div>
 
     <div class="element home clearfix col1-3 border services">
