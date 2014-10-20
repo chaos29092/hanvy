@@ -10,32 +10,32 @@
 <meta name="author" content="ppandp">
 <meta name="Description" content="Eagle Logistics - Responsive Retina-Ready HTML5 One-Page" />
 <title>Eagle Logistics - Responsive Retina-Ready HTML5</title>
-<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
-<!--[if gt IE 8]><!--><link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" /><!--<![endif]-->
-<!--[if !IE]> <link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
-<!--[if lt IE 9]> <link href="css/styles-ie8.css" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
-<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="{{asset('assets/css/reset.css')}}" rel="stylesheet" type="text/css" media="screen" />
+<link href="{{asset('assets/css/contact.css')}}" rel="stylesheet" type="text/css" media="screen" />
+<link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" type="text/css" media="screen" />
+<!--[if gt IE 8]><!--><link href="{{asset('assets/css/retina-responsive.css')}}" rel="stylesheet" type="text/css" media="screen" /><!--<![endif]-->
+<!--[if !IE]> <link href="{{asset('assets/css/retina-responsive.css')}}" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
+<!--[if lt IE 9]> <link href="{{asset('assets/css/styles-ie8.css')}}" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
+<link href="{{asset('assets/css/print.css')}}" rel="stylesheet" type="text/css" media="print" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,600,800' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Ruda:400,900,700' rel='stylesheet' type='text/css'>
-<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
-<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="{{asset('assets/css/flexslider.css')}}" rel="stylesheet" type="text/css" media="screen">
+<link href="{{asset('assets/css/jquery.fancybox.css')}}" rel="stylesheet" type="text/css" media="screen" />
 <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
-<script src="js/modernizr.js" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-<script src="js/jquery.gomap-1.3.2.min.js" type="text/javascript"></script>
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-<script src="js/jquery.ba-bbq.min.js" type="text/javascript"></script>
-<script src="js/jquery.isotope.load_home.js" type="text/javascript"></script>
-<script src="js/jquery.form.js" type="text/javascript"></script>
-<script src="js/input.fields.js" type="text/javascript"></script>
-<script src="js/responsive-nav.js" type="text/javascript"></script>
-<script src="js/jquery.jtweetsanywhere-1.3.1.min.js" type="text/javascript"></script>
-<script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
-<script src="js/scrollup.js" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery-1.9.1.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery-easing-1.3.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/modernizr.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/custom.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.gomap-1.3.2.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.isotope.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.ba-bbq.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.isotope.load_home.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.form.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/input.fields.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/responsive-nav.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.jtweetsanywhere-1.3.1.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.fancybox.pack.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/scrollup.js')}}" type="text/javascript"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
