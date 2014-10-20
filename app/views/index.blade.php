@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="author" content="ppandp">
 <meta name="Description" content="Eagle Logistics - Responsive Retina-Ready HTML5 One-Page" />
+<link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
 <title>Eagle Logistics - Responsive Retina-Ready HTML5</title>
 <link href="{{asset('assets/css/reset.css')}}" rel="stylesheet" type="text/css" media="screen" />
 <link href="{{asset('assets/css/contact.css')}}" rel="stylesheet" type="text/css" media="screen" />
