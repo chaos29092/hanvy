@@ -43,100 +43,179 @@
   <div id="container" class="clearfix">
     <nav class="col1-3 no-bg element home services clients portfolio about blog contact">
       <div id="open-menu">
-        <p><span>Menu -- EN / FR / DE</span></p>
-        <div class="arrow"></div>
+        <img src="{{asset('img/huaxia_logo.jpg')}}" alt=""/>
+
       </div>
-      <div id="menu-container">
-        <div id="options" class="clearfix">
-          <ul id="filters" class="option-set clearfix" data-option-key="filter">
-            <li><a href="#filter=.home" class="selected">Home</a></li>
-            <li><a href="#filter=.services">Services</a></li>
-            <li><a href="#filter=.clients">Clients</a></li>
-            <li><a href="#filter=.portfolio">Cargo Fleet</a></li>
-            <li><a href="#filter=.about">About</a></li>
-            <li><a href="#filter=.blog">News</a></li>
-            <li><a href="#filter=.contact">Contact</a></li>
+      
+
+      <div id="logo-container">
+      <ul class="list check">
+                 <li>22-year manufacture experience</li>
+                 <li>10-year export experience</li>
+                 <li>Optimized container shipment solution</li>
+                 <li>More competitive quality and price</li>
+                 <li>Questionnaire assistance</li>
+               </ul>
+
+      </div>
+      </a>
+      </nav>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+              <div class="movable-content">
+                <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
+              </div>
+              <div class="infos">
+                <div class="link"></div>
+                <p> <a href="single-work.html">移动式 图片</a><br />
+                  <span>移动式搅拌站</span></p>
+              </div>
+            </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p> <a href="single-work.html">固定式 图片</a><br />
+                <span>固定式搅拌站</span></p>
+            </div>
+        </div>
+
+
+    <div class="element home clearfix col1-3 border services">
+      <h3>Mobile Asphalt Mixing Plant</h3>
+      <div class="borderline"></div>
+      <ul class="list check">
+        <li>Suitable for urban and rural road building</li>
+        <li>Easily disassemble and transfer</li>
+      </ul>
+    </div>
+
+    <div class="element home clearfix col2-3 services">
+    <h3>Mobile Asphalt Mixing Plant Parameters</h3>
+        <ul class="list check">
+            <li>DHB20<strong><em>(China smallest model)</em></strong>, capacity 20t/h, container 2×40HQ, FOB: USD46,700. <br>
+                Oil burner, 15ton bitumen tank, cyclone dust collector, 2.5m³silo of final product</li>
+            <li>DHB40, capacity 40t/h, container 3×40HQ+1×20GP, FOB: USD80,000. <br>
+                Oil burner, 20ton bitumen tank, water film collector, 2.5m³silo of final product
+</li>
+            <li>DHB60(Hot model), capacity 60t/h, container 4×40HQ+1×20GP, FOB: USD95,000.<br>
+                Oil burner, 30ton bitumen tank, water film collector, 3.5m³silo of final product
+</li>
+            <li>DHB80(Hot model), capacity 80t/h, container 5×40HQ+1×20GP, FOB: USD110,000.<br>
+            Oil burner, 30ton bitumen tank, water film collector, 4.2m³silo of final product</li>
+          </ul>
+    </div>
+
+    <div class="element home clearfix col2-3 services">
+      <ul class="list check">
+          <li>LB500-1，capacity 40t/h，container 7×40HQ，EXW: USD130,500.<br/>
+          Oil burner, 20ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</li>
+          <li>LB800-2, capacity 64t/h，container 8×40HQ，EXW: USD170,000.<br/>
+          Oil burner, 30ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector.</li>
+          <li>LB1000-2，capacity 80t/h，container 8×40HQ，EXW: USD206,700.<br/>
+          Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</li>
+          <li>LB1000-4，capacity 80t/h，container 10×40HQ，EXW: USD263,500. <br/>
+          Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, bag dust collector</li>
+
+      </ul>
+    </div>
+
+    <div class="element home clearfix col1-3 border services">
+      <h3>Stationary asphalt mixing plant</h3>
+      <div class="borderline"></div>
+    </div>
+
+    <div class="element home clearfix col2-3 services">
+          <ul class="list check">
+              <li>LB1500-2，capacity 120t/h，container 9×40HQ，EXW: USD303,500.<br/>
+              Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, water film dust collector</li>
+              <li>LB1500-4，capacity 120t/h，container 11×40HQ，EXW: USD325,000.<br/>
+              Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, bag dust collector.</li>
+              <li>LB2000(complete container shipment)，capacity 160t/h，container 16×40HQ，EXW: USD500,000.<br/>
+              Oil burner, 2×40ton bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</li>
+
           </ul>
         </div>
-        <ul id="nav-lang">
-          <li><a href="#" onClick="return false" class="selected">English</a></li>
-          <li><a href="#" onClick="return false">Français</a></li>
-          <li><a href="#" onClick="return false">Deutsch</a></li>
-        </ul>
+
+        <div class="element home clearfix col1-3 border services">
+          <h3>Stationary asphalt mixing plant</h3>
+          <div class="borderline"></div>
+        </div>
+
+    <div class="element home clearfix col1-3 border services">
+      <h3>Questionnaire</h3>
+      <div class="borderline"></div>
+      <p>In order to make sure right machine, please ask for questionnaire from us.</p>
+    </div>
+    <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p> <a href="single-work.html">取得调查问卷</a><br />
+                <span>调查问卷</span></p>
+            </div>
+        </div>
+
+        <div class="element home clearfix col1-3 services">
+        <h3>Easy Neglect Question</h3>
+          <ul class="list check">
+            <li>Industrial voltage and frequency in different countries</li>
+            <li>Altitude for working site. Should increase power of burner above 1000m</li>
+          </ul>
+        </div>
+
+        <div class="element home clearfix col2-3 services">
+        <h3>More Question</h3>
+          <ul class="list check">
+            <li>Option of burner. According to quality and price of local fuel, generally speaking, light oil is expensive with cheap light oil burner. Heavy oil is cheap with expensive heavy oil burner, however, heavy oil burner can use light oil.</li>
+            <li>Variable requirement of environment protection in different countries. Bag dust collector is less harmful to environment.</li>
+            <li>Device of simple structure, such as light oil tank, can be fabricated in local place, then can save customer’s cost.</li>
+          </ul>
+        </div>
+
+{{--联系我们--}}
+<div class="element home clearfix col1-3 border contact no-padding">
+      <div id="contact">
+        <div id="message"></div>
+        <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
+          <fieldset>
+          <div class="alignleft padding-right">
+            <label for="name" accesskey="U"><span class="required">Name</span></label>
+            <input name="name" type="text" id="name" size="30" title="Name" />
+            <label for="email" accesskey="E"><span class="required">Email</span></label>
+            <input name="email" type="text" id="email" size="30" title="Email" />
+            <!--<label for="phone" accesskey="P"><span class="required">Phone</span></label>
+            <input name="phone" type="text" id="phone" size="30" title="Phone *" class="third" />-->
+          </div>
+          <label for="comments" accesskey="C"><span class="required">Comments</span></label>
+          <textarea name="comments" cols="40" rows="3" id="comments" title="Comment"></textarea>
+          <input type="submit" class="submit" id="submit" value="Submit" onFocus="if(this.blur)this.blur()" />
+          </fieldset>
+        </form>
       </div>
-      <a href="index.html">
-      <div id="logo-container">
-        <h1 id="logo">Eagle Logistics</h1>
-      </div>
-      </a> </nav>
-    <div class="element  clearfix col2-3 home">
-      <h2>Worldwide Shipping</h2>
-      <div class="borderline"></div>
-      <p>A <span>digital-forward</span> creative agency making brands live up to their full potential. That’s it.<br />
-        And this is our website. It’s that simple.</p>
     </div>
-    <div class="element home clearfix col2-3 borders">
-      <div class="images"><img src="images/pic1.jpg" alt="" /></div>
-    </div>
-    <div class="element home clearfix col2-3 services">
-      <h2>We Deliver</h2>
-      <div class="borderline"></div>
-      <p>We are absolutely passionate about <span>simple yet sophisticated</span> user experience and designs that we, and our clients, are very proud of.</p>
-    </div>
-    <div class="element home clearfix col1-3 border services">
-      <h3>Air Freight</h3>
-      <div class="borderline"></div>
-      <ul class="list check">
-        <li>Lorem ipsum dolor sit</li>
-        <li>Consetetur sadipsing sed diam nonumy</li>
-        <li>Pretium quis sutrum</li>
-        <li>Donec pede justo</li>
-      </ul>
-    </div>
-    <div class="element home clearfix col1-3 border services">
-      <h3>Cargo Ships</h3>
-      <div class="borderline"></div>
-      <ul class="list check">
-        <li>Justo quam fellis</li>
-        <li>Ultricies nec pellentes</li>
-        <li>Donec pede justo</li>
-        <li>Frin gilla vel</li>
-        <li>Aliquet nec</li>
-      </ul>
-    </div>
-    <div class="element home clearfix col1-3 border services">
-      <h3>Rail Logistics</h3>
-      <div class="borderline"></div>
-      <ul class="list check">
-        <li>Justo quam fellis ultricies </li>
-        <li>Nec pellentesque eu</li>
-        <li>Pretium quis sem donec</li>
-        <li>Pede justo frin gilla vel</li>
-        <li>Aliquet nec</li>
-      </ul>
-    </div>
-    <div class="element home clearfix col1-3 border services">
-      <h3>Trucks</h3>
-      <div class="borderline"></div>
-      <ul class="list check">
-        <li>Lorem ipsum dolor sit</li>
-        <li>Consetetur sadipsing sed diam nonumy</li>
-        <li>Pretium quis sutrum</li>
-        <li>Donec pede justo</li>
-      </ul>
-    </div>
-    <div class="element home clearfix col2-3 clients">
-      <h2>Our Partners</h2>
-      <div class="borderline"></div>
-      <p class="blockquote">“ This could be a blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo. ” <br />
-        <span>-- John Doe, Company Name</span></p>
-    </div>
+
+    {{--四分图，稍后可大量复制该结构--}}
     <div class="element home clearfix col1-3 no-bg clients">
       <div class="logo"><img src="images/logos/logo2.png" alt="" /></div>
       <div class="logo last"><img src="images/logos/logo3.png" alt="" /></div>
       <div class="logo bottom"><img src="images/logos/logo1.png" alt="" /></div>
       <div class="logo last bottom"><img src="images/logos/logo5.png" alt="" /></div>
     </div>
+
+
+    <div class="element home clearfix col2-3 clients">
+      <h2>Our Partners</h2>
+      <div class="borderline"></div>
+      <p class="blockquote">“ This could be a blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo. ” <br />
+        <span>-- John Doe, Company Name</span></p>
+    </div>
+
     <div class="element home clearfix col1-3 borders portfolio overflow">
       <div class="movable-content">
         <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
