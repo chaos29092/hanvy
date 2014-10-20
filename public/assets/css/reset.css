@@ -33,7 +33,6 @@ kbd,
 q,
 s,
 samp,
-small,
 strike,
 strong,
 sub,
@@ -94,4 +93,8 @@ th,
 td {
    text-align: left;
    font-weight: normal;
+}
+
+small {
+    font-size: 85%;
 }

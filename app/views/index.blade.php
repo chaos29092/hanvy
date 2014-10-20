@@ -43,7 +43,7 @@
   <div id="container" class="clearfix">
     <nav class="col1-3 no-bg element home services clients portfolio about blog contact">
       <div id="open-menu">
-        <img src="{{asset('img/huaxia_logo.jpg')}}" alt=""/>
+        <img src="{{asset('img/logo.jpg')}}" alt=""/>
 
       </div>
       
@@ -97,28 +97,29 @@
     <h3>Mobile Asphalt Mixing Plant Parameters</h3>
         <ul class="list check">
             <li>DHB20<strong><em>(China smallest model)</em></strong>, capacity 20t/h, container 2×40HQ, FOB: USD46,700. <br>
-                Oil burner, 15ton bitumen tank, cyclone dust collector, 2.5m³silo of final product</li>
+               <small> Oil burner, 15ton bitumen tank, cyclone dust collector, 2.5m³silo of final product</small></li>
             <li>DHB40, capacity 40t/h, container 3×40HQ+1×20GP, FOB: USD80,000. <br>
-                Oil burner, 20ton bitumen tank, water film collector, 2.5m³silo of final product
+                <small>Oil burner, 20ton bitumen tank, water film collector, 2.5m³silo of final product</small>
 </li>
             <li>DHB60(Hot model), capacity 60t/h, container 4×40HQ+1×20GP, FOB: USD95,000.<br>
-                Oil burner, 30ton bitumen tank, water film collector, 3.5m³silo of final product
+                <small>Oil burner, 30ton bitumen tank, water film collector, 3.5m³silo of final product</small>
 </li>
             <li>DHB80(Hot model), capacity 80t/h, container 5×40HQ+1×20GP, FOB: USD110,000.<br>
-            Oil burner, 30ton bitumen tank, water film collector, 4.2m³silo of final product</li>
+            <small>Oil burner, 30ton bitumen tank, water film collector, 4.2m³silo of final product</small></li>
           </ul>
     </div>
 
     <div class="element home clearfix col2-3 services">
+    <h3>Stationary Asphalt Mixing Plant Parameters</h3>
       <ul class="list check">
           <li>LB500-1，capacity 40t/h，container 7×40HQ，EXW: USD130,500.<br/>
-          Oil burner, 20ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</li>
+         <small> Oil burner, 20ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
           <li>LB800-2, capacity 64t/h，container 8×40HQ，EXW: USD170,000.<br/>
-          Oil burner, 30ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector.</li>
+          <small>Oil burner, 30ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector.</small></li>
           <li>LB1000-2，capacity 80t/h，container 8×40HQ，EXW: USD206,700.<br/>
-          Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</li>
+          <small>Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
           <li>LB1000-4，capacity 80t/h，container 10×40HQ，EXW: USD263,500. <br/>
-          Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, bag dust collector</li>
+          <small>Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, bag dust collector</small></li>
 
       </ul>
     </div>
@@ -129,13 +130,14 @@
     </div>
 
     <div class="element home clearfix col2-3 services">
+    <h3>Stationary Asphalt Mixing Plant Parameters</h3>
           <ul class="list check">
               <li>LB1500-2，capacity 120t/h，container 9×40HQ，EXW: USD303,500.<br/>
-              Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, water film dust collector</li>
+              <small>Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, water film dust collector</small></li>
               <li>LB1500-4，capacity 120t/h，container 11×40HQ，EXW: USD325,000.<br/>
-              Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, bag dust collector.</li>
+              <small>Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, bag dust collector.</small></li>
               <li>LB2000(complete container shipment)，capacity 160t/h，container 16×40HQ，EXW: USD500,000.<br/>
-              Oil burner, 2×40ton bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</li>
+             <small> Oil burner, 2×40ton bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</small></li>
 
           </ul>
         </div>
