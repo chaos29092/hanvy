@@ -15,3 +15,14 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+
+Route::post('mailPost', function()
+{
+    $date = Input::all();
+
+    Mail::send('emails.inquiry', array('email'=>$date['name'],'subject'=>$date['subject'],'product'=>$product->name,'mes'=>$date['message']),function($message){
+        $message->to(array('178399731@qq.com','chaos29092@gmail.com'), 'inquiry')->subject('网站询盘');
+    });
+
+    return Redirect::back()->with('message', 'Message Send Successfully! We will contact you as soon as possible.');
+});

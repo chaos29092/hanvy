@@ -19,7 +19,7 @@
 <!--[if lt IE 9]> <link href="{{asset('assets/css/styles-ie8.css')}}" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
 <link href="{{asset('assets/css/print.css')}}" rel="stylesheet" type="text/css" media="print" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,600,800' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Ruda:400,900,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link href="{{asset('assets/css/flexslider.css')}}" rel="stylesheet" type="text/css" media="screen">
 <link href="{{asset('assets/css/jquery.fancybox.css')}}" rel="stylesheet" type="text/css" media="screen" />
 <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
@@ -44,7 +44,7 @@
   <div id="container" class="clearfix">
     <nav class="col1-3 no-bg element home services clients portfolio about blog contact">
       <div id="open-menu">
-        <img src="{{asset('img/logo.jpg')}}" alt=""/>
+        <a href="http://www.hanvygroup.com/"><img src="{{asset('img/logo.jpg')}}" alt=""/></a>
 
       </div>
       
@@ -53,8 +53,7 @@
       <ul class="list check">
                  <li>22-year manufacture experience</li>
                  <li>10-year export experience</li>
-                 <li>Optimized container shipment solution</li>
-                 <li>More competitive quality and price</li>
+                 <li>Optimized container solution</li>
                  <li>Questionnaire assistance</li>
                </ul>
 
@@ -66,11 +65,6 @@
               <div class="movable-content">
                 <div class="images"><img src="{{asset('img/Mobile-Asphalt-Mixing-Plant-1.jpg')}}" alt="" /></div>
               </div>
-              <div class="infos">
-                <div class="link"></div>
-                <p> <a href="#">Mobile Asphalt Mixing Plant</a><br />
-                  <span>Mobile Asphalt Mixing Plant</span></p>
-              </div>
             </div>
 
 
@@ -78,52 +72,41 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-1.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p> <a href="#">Stationary Asphalt Mixing Plant</a><br />
-                <span>Stationary Asphalt Mixing Plant</span></p>
-            </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/Mobile-Asphalt-Mixing-Plant-2.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p> <a href="#">Mobile Asphalt Mixing Plant</a><br />
-                <span>Mobile Asphalt Mixing Plant</span></p>
-            </div>
         </div>
 
     <div class="element home clearfix col2-3 services">
     <h3>Mobile Asphalt Mixing Plant Parameters</h3>
         <ul class="list check">
-            <li>DHB20<strong><em>(China smallest model)</em></strong>, capacity 20t/h, container 2×40HQ, FOB: USD46,700. <br>
-               <small> Oil burner, 15ton bitumen tank, cyclone dust collector, 2.5m³silo of final product</small></li>
-            <li>DHB40, capacity 40t/h, container 3×40HQ+1×20GP, FOB: USD80,000. <br>
-                <small>Oil burner, 20ton bitumen tank, water film collector, 2.5m³silo of final product</small>
+            <li>DHB20(China smallest), 20t/h, 2×40HQ, FOB QD: USD46,700. <br>
+               Oil burner, 15t bitumen tank, cyclone dust collector, 2.5m³ silo of final product</li>
+            <li>DHB40, 40t/h, 3×40HQ+1×20GP, FOB QD: USD80,000. <br>
+                Oil burner, 20t bitumen tank, water film collector, 2.5m³ silo of final product
 </li>
-            <li>DHB60(Hot model), capacity 60t/h, container 4×40HQ+1×20GP, FOB: USD95,000.<br>
-                <small>Oil burner, 30ton bitumen tank, water film collector, 3.5m³silo of final product</small>
+            <li>DHB60(Hot model), 60t/h, 4×40HQ+1×20GP, FOB QD: USD95,000.<br>
+                Oil burner, 30t bitumen tank, water film collector, 3.5m³ silo of final product
 </li>
-            <li>DHB80(Hot model), capacity 80t/h, container 5×40HQ+1×20GP, FOB: USD110,000.<br>
-            <small>Oil burner, 30ton bitumen tank, water film collector, 4.2m³silo of final product</small></li>
+            <li>DHB80(Hot model), 80t/h, 5×40HQ+1×20GP, FOB QD: USD110,000.<br>
+            Oil burner, 30t bitumen tank, water film collector, 4.2m³ silo of final product</li>
           </ul>
     </div>
 
     <div class="element home clearfix col2-3 services">
     <h3>Stationary Asphalt Mixing Plant Parameters</h3>
       <ul class="list check">
-          <li>LB500-1，capacity 40t/h，container 7×40HQ，EXW: USD130,500.<br/>
-         <small> Oil burner, 20ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
-          <li>LB800-2, capacity 64t/h，container 8×40HQ，EXW: USD170,000.<br/>
-          <small>Oil burner, 30ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector.</small></li>
-          <li>LB1000-2，capacity 80t/h，container 8×40HQ，EXW: USD206,700.<br/>
-          <small>Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
-          <li>LB1000-4，capacity 80t/h，container 10×40HQ，EXW: USD263,500. <br/>
-          <small>Oil burner, 40ton bitumen tank, 300,000 Kcal thermal oil furnace, bag dust collector</small></li>
-
+          <li>LB500-1, 40t/h, 7×40HQ，EXW: USD130,500.<br/>
+         <small>Oil burner, 20t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
+          <li>LB800-2, 64t/h, 8×40HQ，EXW: USD170,000.<br/>
+          <small>Oil burner, 30t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector.</small></li>
+          <li>LB1000-2, 80t/h, 8×40HQ，EXW: USD206,700.<br/>
+          <small>Oil burner, 40t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
+          <li>LB1000-4, 80t/h, 10×40HQ，EXW: USD263,500. <br/>
+          <small>Oil burner, 40t bitumen tank, 300,000 Kcal thermal oil furnace, bag dust collector</small></li>
       </ul>
     </div>
 
@@ -131,22 +114,17 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-2.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p> <a href="#">Stationary Asphalt Mixing Plant</a><br />
-                <span>Stationary Asphalt Mixing Plant</span></p>
-            </div>
         </div>
 
     <div class="element home clearfix col2-3 services">
     <h3>Stationary Asphalt Mixing Plant Parameters</h3>
           <ul class="list check">
-              <li>LB1500-2，capacity 120t/h，container 9×40HQ，EXW: USD303,500.<br/>
-              <small>Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, water film dust collector</small></li>
-              <li>LB1500-4，capacity 120t/h，container 11×40HQ，EXW: USD325,000.<br/>
-              <small>Oil burner, 2×40ton bitumen tank, 400,000 Kcal thermal oil furnace, bag dust collector.</small></li>
-              <li>LB2000(complete container shipment)，capacity 160t/h，container 16×40HQ，EXW: USD500,000.<br/>
-             <small> Oil burner, 2×40ton bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</small></li>
+              <li>LB1500-2, 120t/h, 9×40HQ，EXW: USD303,500.<br/>
+              <small>Oil burner, 2×40t bitumen tank, 400,000 Kcal thermal oil furnace, water film dust collector</small></li>
+              <li>LB1500-4, 120t/h, 11×40HQ，EXW: USD325,000.<br/>
+              <small>Oil burner, 2×40t bitumen tank, 400,000 Kcal thermal oil furnace, bag dust collector.</small></li>
+              <li>LB2000(complete container shipment), 160t/h, 16×40HQ，EXW: USD500,000.<br/>
+             <small> Oil burner, 2×40t bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</small></li>
 
           </ul>
         </div>
@@ -155,39 +133,28 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-3.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p> <a href="#">Stationary Asphalt Mixing Plant</a><br />
-                <span>Stationary Asphalt Mixing Plant</span></p>
-            </div>
         </div>
 
     <div class="element home clearfix col1-3 border services">
       <h3>Questionnaire</h3>
-      <div class="borderline"></div>
-      <p>In order to make sure right machine, please <a href="">ask for questionnaire</a> from us.</p>
+      <p><small>We’re here to ensure you get the right machine for your yard with the support to keep it running at peak performance levels.</small>
+      <small>Please <a href="">ask for questionnaire</a> from us.</small></p>
     </div>
-    <div class="element home clearfix col1-3 borders portfolio overflow">
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/Questionnaire.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/Questionnaire.jpg')}}" alt="Questionnaire" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p> <a href="#">Ask For Questionnaire</a><br />
-                <span>Contains nearly 30 projects product questionnaire, accurate lock your product needs.</span></p>
-            </div>
+        </div>
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/Questionnaire_2.jpg')}}" alt="Questionnaire" /></div>
+             </div>
         </div>
 
-        <div class="element home clearfix col1-3 services">
-        <h3>Easy Neglect Question</h3>
-          <ul class="list check">
-            <li>Industrial voltage and frequency in different countries</li>
-            <li>Altitude for working site. Should increase power of burner above 1000m</li>
-          </ul>
-        </div>
 
         <div class="element home clearfix col2-3 services">
-        <h3>More Question</h3>
+        <h3>Easy Neglect Question</h3>
           <ul class="list check">
             <li>Option of burner. According to quality and price of local fuel, generally speaking, light oil is expensive with cheap light oil burner. Heavy oil is cheap with expensive heavy oil burner, however, heavy oil burner can use light oil.</li>
             <li>Variable requirement of environment protection in different countries. Bag dust collector is less harmful to environment.</li>
@@ -197,9 +164,9 @@
 
 {{--联系我们--}}
 <div class="element home clearfix col1-3 border contact no-padding">
-      <div id="contact">
-        <div id="message"></div>
-        <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
+      <div id="contact1">
+        <div id="message1"></div>
+        <form method="post" action="contact.php" name="contactform" id="contactform1" >
           <fieldset>
           <div class="alignleft padding-right">
             <label for="name" accesskey="U"><span class="required">Name</span></label>
@@ -222,21 +189,11 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/canguan/canguan_big_3.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p>Customers Visit Factory<br />
-                <span>Customers from various countries, to visit our factory.</span></p>
-            </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/canguan/canguan_big_1.jpg')}}" alt="" /></div>
-             </div>
-        <div class="infos">
-             <div class="link"></div>
-                 <p>Customers Visit Factory<br />
-                   <span>Customers from various countries, to visit our factory.</span></p>
              </div>
         </div>
 
@@ -244,11 +201,6 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/canguan/canguan_big_2.jpg')}}" alt="" /></div>
             </div>
-        <div class="infos">
-            <div class="link"></div>
-            <p>Customers Visit Factory<br />
-          <span>Customers from various countries, to visit our factory.</span></p>
-        </div>
         </div>
 
 {{--客户参观现场--}}
@@ -267,21 +219,11 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/xianchang/xianchang_2.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-             <div class="link"></div>
-                 <p>Customers Visit Job Site<br />
-                   <span>Customers from various countries, to visit Job Site.</span></p>
-             </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/xianchang/xianchang_3.jpg')}}" alt="" /></div>
-            </div>
-            <div class="infos">
-                <div class="link"></div>
-                <p>Customers Visit Job Site<br />
-                <span>Customers from various countries, to visit Job Site.</span></p>
             </div>
         </div>
 
@@ -290,32 +232,17 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/taolun/taolun_big_1.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p>Technical Discussions<br />
-                <span>Customers from various countries, Technical Discussions.</span></p>
-            </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/taolun/taolun_big_2.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-             <div class="link"></div>
-                 <p>Technical Discussions<br />
-                   <span>Customers from various countries, Technical Discussions.</span></p>
-             </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/taolun/taolun_big_3.jpg')}}" alt="" /></div>
-            </div>
-            <div class="infos">
-                <div class="link"></div>
-                <p>Technical Discussions<br />
-                <span>Customers from various countries, Technical Discussions.</span></p>
             </div>
         </div>
 
@@ -324,32 +251,17 @@
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/yanhuo/yanhuo_1.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p>Customers Inspection<br />
-                <span>Customers from various countries, Inspection.</span></p>
-            </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/yanhuo/yanhuo_3.jpg')}}" alt="" /></div>
              </div>
-        <div class="infos">
-             <div class="link"></div>
-                 <p>Customers Inspection<br />
-                   <span>Customers from various countries, Inspection.</span></p>
-             </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
                 <div class="images"><img src="{{asset('img/yanhuo/yanhuo_2.jpg')}}" alt="" /></div>
-            </div>
-            <div class="infos">
-                <div class="link"></div>
-                <p>Customers Inspection<br />
-                <span>Customers from various countries, Inspection.</span></p>
             </div>
         </div>
 
@@ -359,17 +271,17 @@
       <div class="borderline"></div>
       <p>Zhengzhou Hanvy Machinery And Equipment Co., Ltd International Trade:<br/>
       Changchun Road11, Zhengzhou City, Henan Province,China, 450001<br />
-        <a href="mailto:admin@sinohanvy.com">admin@sinohanvy.com</a><br />
-        0086-186 0386 0660</p>
+        </p>
     </div>
 
 {{--联系框--}}
     <div class="element home clearfix col1-3 border contact no-padding">
-      <div id="contact">
-        <div id="message"></div>
-        <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
+      <div id="contact2">
+        <div id="message2"></div>
+        <form method="post" action="" name="contactform" id="contactform2">
           <fieldset>
           <div class="alignleft padding-right">
+          {{Form::token()}}
             <label for="name" accesskey="U"><span class="required">Name</span></label>
             <input name="name" type="text" id="name" size="30" title="Name" />
             <label for="email" accesskey="E"><span class="required">Email</span></label>
@@ -388,12 +300,6 @@
 </div>
 <!-- end header -->
 <footer class="centered">© 2014, Zhengzhou Hanvy Machinery And Equipment Co., Ltd.
-  <ul class="social clearfix">
-    <li class="facebook"><a href="#" onClick="return false">Visit our facebook Account</a></li>
-    <li class="dribble"><a href="#" onClick="return false">Visit our dribble Account</a></li>
-    <li class="vimeo"><a href="#" onClick="return false">Visit our vimeo Account</a></li>
-    <li class="google"><a href="#" onClick="return false">Visit our googleplus Account</a></li>
-  </ul>
 </footer>
 <!-- BACK TO TOP BUTTON -->
 <div id="backtotop">
