@@ -89,7 +89,7 @@ h3.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style
 .logo.last {margin-right:0px; }
 .logo.bottom {margin-bottom:0px; }
 .overflow {overflow:hidden; }
-.borderline {width:100%; background:#63615f; border-top:1px solid #4d4b4a; height:1px; }
+.borderline {width:100%; background:#ffffff; border-top:1px solid #4d4b4a; height:1px; }
 .borderline.margin-bottom {margin-bottom:11px; }
 .borderline.margin-top {margin-top:30px; }
 /* =End Main Content

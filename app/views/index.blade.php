@@ -70,7 +70,7 @@
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-1.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/asphalt-mixing-plant-1.jpg')}}" alt="" /></div>
              </div>
         </div>
 
@@ -112,7 +112,7 @@
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-2.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/asphalt-mixing-plant-2.jpg')}}" alt="" /></div>
              </div>
         </div>
 
@@ -131,7 +131,7 @@
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/Stationary-asphalt-mixing-plant-3.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/asphalt-mixing-plant-3.jpg')}}" alt="" /></div>
              </div>
         </div>
 
@@ -206,24 +206,19 @@
 {{--客户参观现场--}}
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/xianchang/xianchang_1.jpg')}}" alt="" /></div>
-             </div>
-        <div class="infos">
-            <div class="link"></div>
-                <p>Customers Visit Job Site<br />
-                <span>Customers from various countries, to visit Job Site.</span></p>
-            </div>
-        </div>
-
-        <div class="element home clearfix col1-3 borders portfolio overflow">
-            <div class="movable-content">
-                <div class="images"><img src="{{asset('img/xianchang/xianchang_2.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/xianchang/xianchang_big_1.jpg')}}" alt="" /></div>
              </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/xianchang/xianchang_3.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/xianchang/xianchang_big_2.jpg')}}" alt="" /></div>
+             </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/xianchang/xianchang_big_3.jpg')}}" alt="" /></div>
             </div>
         </div>
 
