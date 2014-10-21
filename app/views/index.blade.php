@@ -165,16 +165,16 @@
     <div class="element home clearfix col1-3 border services">
       <h3>Questionnaire</h3>
       <div class="borderline"></div>
-      <p>In order to make sure right machine, please ask for questionnaire from us.</p>
+      <p>In order to make sure right machine, please <a href="">ask for questionnaire</a> from us.</p>
     </div>
     <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
+                <div class="images"><img src="{{asset('img/Questionnaire.jpg')}}" alt="" /></div>
              </div>
         <div class="infos">
             <div class="link"></div>
-                <p> <a href="single-work.html">取得调查问卷</a><br />
-                <span>调查问卷</span></p>
+                <p> <a href="#">Ask For Questionnaire</a><br />
+                <span>Contains nearly 30 projects product questionnaire, accurate lock your product needs.</span></p>
             </div>
         </div>
 
@@ -217,156 +217,152 @@
       </div>
     </div>
 
-    {{--四分图，稍后可大量复制该结构--}}
-    <div class="element home clearfix col1-3 no-bg clients">
-      <div class="logo"><img src="images/logos/logo2.png" alt="" /></div>
-      <div class="logo last"><img src="images/logos/logo3.png" alt="" /></div>
-      <div class="logo bottom"><img src="images/logos/logo1.png" alt="" /></div>
-      <div class="logo last bottom"><img src="images/logos/logo5.png" alt="" /></div>
-    </div>
+{{--客户参观工厂--}}
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/canguan/canguan_big_3.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p>Customers Visit Factory<br />
+                <span>Customers from various countries, to visit our factory.</span></p>
+            </div>
+        </div>
 
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/canguan/canguan_big_1.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+             <div class="link"></div>
+                 <p>Customers Visit Factory<br />
+                   <span>Customers from various countries, to visit our factory.</span></p>
+             </div>
+        </div>
 
-    <div class="element home clearfix col2-3 clients">
-      <h2>Our Partners</h2>
-      <div class="borderline"></div>
-      <p class="blockquote">“ This could be a blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo. ” <br />
-        <span>-- John Doe, Company Name</span></p>
-    </div>
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/canguan/canguan_big_2.jpg')}}" alt="" /></div>
+            </div>
+        <div class="infos">
+            <div class="link"></div>
+            <p>Customers Visit Factory<br />
+          <span>Customers from various countries, to visit our factory.</span></p>
+        </div>
+        </div>
 
-    <div class="element home clearfix col1-3 borders portfolio overflow">
-      <div class="movable-content">
-        <div class="images"><img src="images/portfolio1.jpg" alt="" /></div>
-      </div>
-      <div class="infos">
-        <div class="link"></div>
-        <p> <a href="single-work.html">Container Cargo Ship</a><br />
-          <span>Ship Logistics</span></p>
-      </div>
-    </div>
-    <div class="element  clearfix col1-3 borders portfolio overflow">
-      <div class="movable-content">
-        <div class="images"><img src="images/portfolio2.jpg" alt="" /></div>
-      </div>
-      <div class="infos">
-        <div class="link"></div>
-        <p> <a href="single-work.html">Train Fleet in Europe</a><br />
-          <span>Rail Logistics</span></p>
-      </div>
-    </div>
-    <div class="element home clearfix col1-3 borders portfolio overflow">
-      <div class="movable-content">
-        <div class="images"><img src="images/portfolio3.jpg" alt="" /></div>
-      </div>
-      <div class="infos">
-        <div class="expand"></div>
-        <p> <a href="images/portfolio3.jpg" class="popup">Train Fleet in USA</a><br />
-          <span>Rail Logistics</span></p>
-      </div>
-    </div>
-    <div class="element home clearfix col1-3 portfolio">
-      <h3>Need a Quote?</h3>
-      <div class="borderline"></div>
-      <p>Just give us a call or drop us a line. We'll get back to you as soon as possible!<br />
-        hello@domain.com<br />
-        (845) 123 4567</p>
-    </div>
-    <div class="element home clearfix col2-3 about">
-      <h2>About Us</h2>
-      <div class="borderline"></div>
-      <p>We are regarded as <span>industry leaders</span> in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
-    </div>
-    <div class="element home clearfix col1-3 colored about">
-      <div class="certificate"></div>
-      <p> We’re an <strong>EN ISO 9001</strong> certified company.<br />
-        <a href="#" onClick="return false">View certificate (PDF)</a><br />
-        <span>#129 000 9877</span></p>
-    </div>
-    <div class="element  clearfix col1-3 about">
-      <h3>Text Widget</h3>
-      <div class="borderline"></div>
-      <p>You can add any kind of text to supply further information. Maybe a short list of employee names?! Let me know what you need!</p>
-    </div>
-    <div class="element home clearfix col1-3 borders about overflow">
-      <div class="movable-content">
-        <div class="images"><img src="images/about1.jpg" alt="" /></div>
-      </div>
-      <div class="infos">
-        <div class="email"></div>
-        <p> <a href="mailto:info@domain.com">Johnathan Smith</a><br />
-          <span>Founder &amp; CEO</span></p>
-      </div>
-    </div>
-    <div class="element home clearfix col2-3 blog">
-      <h2>Milestones</h2>
-      <div class="borderline"></div>
-      <p>News, comments, and hints on user experience and website solutions as well as <span>current information</span> on agency's development.</p>
-    </div>
-    <div class="element home clearfix col1-3 blog">
-      <div class="vertical-align">
-        <h3><a href="single-post.html">We Expanded Our Cargo Ship Fleet</a></h3>
-      </div>
-      <div class="borderline"></div>
-      <div class="posted"><a href="single-post.html">-- Feb 17, 2013</a></div>
-      <div class="borderline"></div>
-      <p>Cum sociis natoque perse penatibus et magnis dis parturient ...</p>
-    </div>
-    <div class="element home clearfix col1-3 blog">
-      <div class="vertical-align">
-        <h3><a href="single-post.html">Subsidiary in UK</a></h3>
-      </div>
-      <div class="borderline"></div>
-      <div class="posted"><a href="single-post.html">-- Feb 17, 2013</a></div>
-      <div class="borderline"></div>
-      <p>Cum sociis natoque perse penatibus et magnis dis parturient ...</p>
-    </div>
-    <div class="element home clearfix col1-3 blog">
-      <div class="vertical-align">
-        <h3><a href="single-post.html">120% Increase in Revenue in 2012</a></h3>
-      </div>
-      <div class="borderline"></div>
-      <div class="posted"><a href="single-post.html">-- Feb 17, 2013</a></div>
-      <div class="borderline"></div>
-      <p>Cum sociis natoque perse penatibus et magnis dis parturient ...</p>
-    </div>
-    <div class="element  clearfix col1-3 blog">
-      <div class="vertical-align">
-        <h3><a href="single-post.html">Ok, One Last Link</a></h3>
-      </div>
-      <div class="borderline"></div>
-      <div class="posted"><a href="single-post.html">-- Feb 17, 2013</a></div>
-      <div class="borderline"></div>
-      <p>Cum sociis natoque perse penatibus et magnis dis parturient ...</p>
-    </div>
-    <div class="element  clearfix col1-3 blog">
-      <div class="vertical-align">
-        <h3><a href="single-post.html">Post with a Slideshow</a></h3>
-      </div>
-      <div class="borderline"></div>
-      <div class="posted"><a href="single-post.html">-- Feb 17, 2013</a></div>
-      <div class="borderline"></div>
-      <p>Cum sociis natoque perse penatibus et magnis dis parturient ...</p>
-    </div>
-    <div class="element home clearfix col1-3 blog">
-      <div class="vertical-align">
-        <h3><a href="single-post.html">Founded in 2010</a></h3>
-      </div>
-      <div class="borderline"></div>
-      <div class="posted"><a href="single-post.html">-- Feb 17, 2013</a></div>
-      <div class="borderline"></div>
-      <p>Cum sociis natoque perse penatibus et magnis dis parturient ...</p>
-    </div>
+{{--客户参观现场--}}
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/xianchang/xianchang_1.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p>Customers Visit Job Site<br />
+                <span>Customers from various countries, to visit Job Site.</span></p>
+            </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/xianchang/xianchang_2.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+             <div class="link"></div>
+                 <p>Customers Visit Job Site<br />
+                   <span>Customers from various countries, to visit Job Site.</span></p>
+             </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/xianchang/xianchang_3.jpg')}}" alt="" /></div>
+            </div>
+            <div class="infos">
+                <div class="link"></div>
+                <p>Customers Visit Job Site<br />
+                <span>Customers from various countries, to visit Job Site.</span></p>
+            </div>
+        </div>
+
+{{--客户技术讨论--}}
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/taolun/taolun_big_1.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p>Technical Discussions<br />
+                <span>Customers from various countries, Technical Discussions.</span></p>
+            </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/taolun/taolun_big_2.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+             <div class="link"></div>
+                 <p>Technical Discussions<br />
+                   <span>Customers from various countries, Technical Discussions.</span></p>
+             </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/taolun/taolun_big_3.jpg')}}" alt="" /></div>
+            </div>
+            <div class="infos">
+                <div class="link"></div>
+                <p>Technical Discussions<br />
+                <span>Customers from various countries, Technical Discussions.</span></p>
+            </div>
+        </div>
+
+{{--客户验货--}}
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/yanhuo/yanhuo_1.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+            <div class="link"></div>
+                <p>Customers Inspection<br />
+                <span>Customers from various countries, Inspection.</span></p>
+            </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/yanhuo/yanhuo_3.jpg')}}" alt="" /></div>
+             </div>
+        <div class="infos">
+             <div class="link"></div>
+                 <p>Customers Inspection<br />
+                   <span>Customers from various countries, Inspection.</span></p>
+             </div>
+        </div>
+
+        <div class="element home clearfix col1-3 borders portfolio overflow">
+            <div class="movable-content">
+                <div class="images"><img src="{{asset('img/yanhuo/yanhuo_2.jpg')}}" alt="" /></div>
+            </div>
+            <div class="infos">
+                <div class="link"></div>
+                <p>Customers Inspection<br />
+                <span>Customers from various countries, Inspection.</span></p>
+            </div>
+        </div>
+
+{{--联系我们--}}
     <div class="element home clearfix col2-3 contact">
       <h2>Contact Us</h2>
       <div class="borderline"></div>
-      <p>22 Miron Drive, New York City, 12603 NY<br />
-        <a href="mailto:hello@domain.com">hello@domain.com</a><br />
-        (845) 123 4567</p>
+      <p>Changchun Road11, Zhengzhou City, Henan Province,China, 450001<br />
+        <a href="mailto:admin@sinohanvy.com">admin@sinohanvy.com</a><br />
+        0086-186 0386 0660</p>
     </div>
-    <div class="element clearfix col2-3 double contact">
-      <div class="images">
-        <div id="map"></div>
-      </div>
-    </div>
+
+{{--联系框--}}
     <div class="element home clearfix col1-3 border contact no-padding">
       <div id="contact">
         <div id="message"></div>
@@ -387,13 +383,10 @@
         </form>
       </div>
     </div>
-    <div class="element  clearfix col1-3 contact">
-      <div id="twitter_update_list"></div>
-    </div>
-  </div>
+
 </div>
 <!-- end header -->
-<footer class="centered">© 2013, Eagle Logistics Ltd.
+<footer class="centered">© 2014, Zhengzhou Hanvy Machinery And Equipment Co., Ltd.
   <ul class="social clearfix">
     <li class="facebook"><a href="#" onClick="return false">Visit our facebook Account</a></li>
     <li class="dribble"><a href="#" onClick="return false">Visit our dribble Account</a></li>
