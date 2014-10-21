@@ -19,7 +19,7 @@
 
 /* =Typography
 --------------------------------------------------------------------------------------------------------*/
-body { font: 16px 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#000; background:url(../images/bg-html.png) no-repeat fixed center 10px #eee; letter-spacing:-1px; }
+body { font: 16px 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:400; color:#ffffff; background:url(../images/bg-html.png) no-repeat fixed center 10px #eee; letter-spacing:-1px; }
 strong { font-weight:bold; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 p { line-height:1.5; font-size:16px; letter-spacing:-1px }
@@ -27,19 +27,19 @@ p { line-height:1.5; font-size:16px; letter-spacing:-1px }
 .col2-3.single-post p { padding:20px 50px 0px 40px; position:relative; }
 .col1-3 p { font-size:20px; padding:0px 30px 21px 30px; position:absolute; bottom:0; }
 .col1-3.colored p, .col1-3 .infos p {font-size:16px; text-align:center; padding:16px 60px 0px 60px; position:relative; color:#fff; }
-.col1-3 .infos p {color:#f8f8f8 ; font-weight:bold; }
+.col1-3 .infos p {color:#0369b3 ; font-weight:bold; }
 p.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-weight:normal; clear:both }
 .blockquote span, .col1-3.colored p span, .col1-3 .infos p span {font: 12px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; text-transform:uppercase; letter-spacing:2px; color:#999; }
-.col1-3 .infos p span {color:#f8f8f8 ; font-size:11px;}
+.col1-3 .infos p span {color:#0369b3 ; font-size:11px;}
 .col1-1 p.blockquote { padding:20px 80px 0px 80px; }
 p span {color:#f97220; }
 .col1-3.colored p span {color:#fff; }
 a { color:#f97220; text-decoration:underline; }
 .col1-3.colored a {color:#fff; }
-.col1-3 .infos p a {color:#f8f8f8 ; text-decoration:underline; }
+.col1-3 .infos p a {color:#0369b3 ; text-decoration:underline; }
 a:hover { text-decoration:none; color:#f97220; }
 .col1-3.colored a:hover {color:#fff; }
-.col1-3 .infos p a:hover {color:#f8f8f8 ; text-decoration:none; }
+.col1-3 .infos p a:hover {color:#0369b3 ; text-decoration:none; }
 /* End Typography
 --------------------------------------------------------------------------------------------------------*/
 
@@ -49,7 +49,7 @@ a:hover { text-decoration:none; color:#f97220; }
 #logo-container { width:298px; height:221px; background:#fff; border:1px solid #ddd; text-align:center; z-index:0;}
 h1#logo { display:block; margin:0 auto; margin-top:43px; }
 a h1#logo { display:inline-block; background:url(../images/bg-logo.png) no-repeat top center; background-size:192px 140px; text-decoration:none; width:192px; height:140px; text-indent:-9999px; }
-h2, h3, h4 { line-height:1.5; letter-spacing:-2px; color:#0369b3; }
+h2, h3, h4 { line-height:1.5; letter-spacing:-2px; color:#ffffff; }
 h2 { font-size:48px; padding:38px 40px 19px 40px; }
 .col1-3 h2 { padding:17px 20px 0px 20px; font-size:28px; text-transform:none }
 .col2-3.single-post h2 { padding:43px 40px 24px 40px; line-height:62px; }
@@ -65,19 +65,19 @@ h3.blockquote { font-family:Georgia, "Times New Roman", Times, serif; font-style
 --------------------------------------------------------------------------------------------------------*/
 #open-menu {width:298px; height:69px; background:#fff; border:1px solid #ddd; margin-bottom:6px; cursor:pointer; }
 #open-menu p {margin-top:25px; font-size:12px; position:relative }
-#open-menu p span { text-transform:uppercase; letter-spacing:2px; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#f8f8f8 }
+#open-menu p span { text-transform:uppercase; letter-spacing:2px; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#0369b3 }
 #open-menu .arrow {content:''; height:0; width:0; border-width:6px 6px 6px 6px; border-style:solid; border-color:rgba(191,191,191,1) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); position:absolute; top:32px; left:259px;}
 .container { padding:0px; width:960px; position:relative; margin:0 auto;}
 #container { margin-bottom:100px; margin-top:70px}
-.col1-1 { width:940px; margin:10px; background:#f8f8f8 ;}
-.col1-3 { width:300px; height:300px; margin:10px; float:left; background:#f8f8f8 ; }
-.col2-3 { width:620px; height:300px; margin:10px; float:left; background:#f8f8f8 ; }
+.col1-1 { width:940px; margin:10px; background:#0369b3 ;}
+.col1-3 { width:300px; height:300px; margin:10px; float:left; background:#0369b3 ; }
+.col2-3 { width:620px; height:300px; margin:10px; float:left; background:#0369b3 ; }
 .no-bg {background:none; }
 .col1-1.borders {width:938px; border:1px solid #ddd; background:#fff; }
 .col1-3.borders {width:298px; height:298px; border:1px solid #ddd; background:#fff; }
 .col2-3.borders {width:618px; height:298px; border:1px solid #ddd; background:#fff; }
 .col2-3.double { width:618px; height:618px; border:1px solid #ddd; background:#fff; }
-.col2-3.single-post { margin:10px; background:#f8f8f8 ; height:auto !important;}
+.col2-3.single-post { margin:10px; background:#0369b3 ; height:auto !important;}
 .col1-3.colored {background:#f97220; }
 .certificate {background:url(../images/bg-certificate.png) center top no-repeat; position:relative; width:100%; height:50px; margin-top:40px; }
 .expand {background:url(../images/bg-expand.png) center top no-repeat; position:relative; width:100%; height:50px; margin-top:40px; }
@@ -166,8 +166,8 @@ ul.check li { background:url(../images/bg-check.png) no-repeat 1px 9px; backgrou
 
 /* =Footer
 --------------------------------------------------------------------------------------------------------*/
-footer:before {content:''; height:0; width:0; border-width:12px 12px 12px 12px; border-style:solid; border-color:rgba(36,37,39,0) rgba(36,37,39,0) #f8f8f8  rgba(36,37,39,0); position:absolute; top:-24px; left:50%; margin-left:-12px; }
-footer { background:#f8f8f8 ; width:100%; height:180px; margin:0px 0px 0 0px; padding:50px 0 0 0px; letter-spacing:-1px; position:relative  }
+footer:before {content:''; height:0; width:0; border-width:12px 12px 12px 12px; border-style:solid; border-color:rgba(36,37,39,0) rgba(36,37,39,0) #0369b3  rgba(36,37,39,0); position:absolute; top:-24px; left:50%; margin-left:-12px; }
+footer { background:#0369b3 ; width:100%; height:180px; margin:0px 0px 0 0px; padding:50px 0 0 0px; letter-spacing:-1px; position:relative  }
 /* End Footer
 --------------------------------------------------------------------------------------------------------*/
 
@@ -212,12 +212,12 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 #options ul { margin: 0; list-style: none; display:inline-block; bottom:22px; position:absolute; }
 #options li { float: none;  }
 #options li a { color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; letter-spacing:0px; text-decoration:none; /*text-transform:uppercase;*/ display:inline-block; padding:3px 30px;  margin:0px; }
-#options li a:hover, #options li a.selected { color:#f8f8f8 ;}
+#options li a:hover, #options li a.selected { color:#0369b3 ;}
 
 ul#nav-lang {position:absolute; bottom:22px; right:0px; text-align:right; }
 ul#nav-lang li { float: none;  }
 ul#nav-lang li a { color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; letter-spacing:0px; text-decoration:none; /*text-transform:uppercase;*/ display:inline-block; padding:3px 30px;  margin:0px; }
-ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#f8f8f8 ;}
+ul#nav-lang li a:hover, ul#nav-lang li a.selected { color:#0369b3 ;}
 /* End Isotope
 --------------------------------------------------------------------------------------------------------*/
 
