@@ -166,7 +166,7 @@
 <div class="element home clearfix col1-3 border contact no-padding">
       <div id="contact1">
         <div id="message1"></div>
-        <form method="post" action="contact.php" name="contactform" id="contactform1" >
+        <form method="post" action="{{url('mailPost')}}" name="contactform" id="contactform1" >
           <fieldset>
           <div class="alignleft padding-right">
             <label for="name" accesskey="U"><span class="required">Name</span></label>
