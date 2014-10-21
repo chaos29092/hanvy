@@ -357,7 +357,8 @@
     <div class="element home clearfix col2-3 contact">
       <h2>Contact Us</h2>
       <div class="borderline"></div>
-      <p>Changchun Road11, Zhengzhou City, Henan Province,China, 450001<br />
+      <p>Zhengzhou Hanvy Machinery And Equipment Co., Ltd International Trade:<br/>
+      Changchun Road11, Zhengzhou City, Henan Province,China, 450001<br />
         <a href="mailto:admin@sinohanvy.com">admin@sinohanvy.com</a><br />
         0086-186 0386 0660</p>
     </div>
