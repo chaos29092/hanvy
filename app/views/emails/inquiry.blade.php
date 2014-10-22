@@ -9,8 +9,8 @@
 		<div>
 			<p>询盘内容：</p>
 			<p>email: {{ $email }}</p>
-			<p>subject: {{$name}}</p>
-			<p>message: {{$comments}}</p>
+			<p>subject: {{$subject}}</p>
+			<p>message: {{$message}}</p>
 		</div>
 	</body>
 </html>

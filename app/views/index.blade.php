@@ -55,6 +55,9 @@
                  <li>10-year export experience</li>
                  <li>Optimized container solution</li>
                  <li>Questionnaire assistance</li>
+                 <li>Smallest mobile model: 20t/h</li>
+                 <li>Smallest fixed model: 40t/h</li>
+                 <li>Credit sales service</li>
                </ul>
 
       </div>
@@ -83,29 +86,27 @@
     <div class="element home clearfix col2-3 services">
     <h3>Mobile Asphalt Mixing Plant Parameters</h3>
         <ul class="list check">
-            <li>DHB20(China smallest), 20t/h, 2×40HQ, FOB QD: USD46,700. <br>
-               Oil burner, 15t bitumen tank, cyclone dust collector, 2.5m³ silo of final product</li>
-            <li>DHB40, 40t/h, 3×40HQ+1×20GP, FOB QD: USD80,000. <br>
-                Oil burner, 20t bitumen tank, water film collector, 2.5m³ silo of final product
-</li>
-            <li>DHB60(Hot model), 60t/h, 4×40HQ+1×20GP, FOB QD: USD95,000.<br>
-                Oil burner, 30t bitumen tank, water film collector, 3.5m³ silo of final product
-</li>
-            <li>DHB80(Hot model), 80t/h, 5×40HQ+1×20GP, FOB QD: USD110,000.<br>
-            Oil burner, 30t bitumen tank, water film collector, 4.2m³ silo of final product</li>
+            <li>DHB20(China smallest), 20t/h, 2×40HQ, FOB QD: USD50,000.<br>
+               <small>Oil burner, 15t direct heat bitumen tank, cyclone dust collector, 2.5m³ silo of final product</small></li>
+            <li>DHB40, 40t/h, 3×40HQ+1×20GP, FOB QD: USD87,000.<br>
+                <small>Oil burner, 20t direct heat bitumen tank, water film dust filter, 2.5m³ silo of final product</small></li>
+            <li>DHB60(Hot model), 60t/h, 4×40HQ+1×20GP, FOB QD: USD104,000.<br>
+                <small>Oil burner, 30t direct heat bitumen tank, water film dust filter, 3.5m³ silo of final product</small></li>
+            <li>DHB80(Hot model), 80t/h, 5×40HQ+1×20GP, FOB QD: USD120,000.<br>
+            <small>Oil burner, 30t direct heat bitumen tank, water film dust filter, 4.2m³ silo of final product</small></li>
           </ul>
     </div>
 
     <div class="element home clearfix col2-3 services">
     <h3>Stationary Asphalt Mixing Plant Parameters</h3>
       <ul class="list check">
-          <li>LB500-1, 40t/h, 7×40HQ，EXW: USD130,500.<br/>
-         <small>Oil burner, 20t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
-          <li>LB800-2, 64t/h, 8×40HQ，EXW: USD170,000.<br/>
-          <small>Oil burner, 30t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector.</small></li>
-          <li>LB1000-2, 80t/h, 8×40HQ，EXW: USD206,700.<br/>
+          <li>LB500-1, 40t/h, 7×40HQ，FOB QD: USD129,000.<br/>
+         <small>Oil burner, 20t direct heat bitumen tank, water film dust filter</small></li>
+          <li>LB800-2, 64t/h, 8×40HQ，FOB QD: USD185,000.<br/>
+          <small>Oil burner, 30t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust filter.</small></li>
+          <li>LB1000-2, 80t/h, 8×40HQ，FOB QD: USD220,000.<br/>
           <small>Oil burner, 40t bitumen tank, 300,000 Kcal thermal oil furnace, water film dust collector</small></li>
-          <li>LB1000-4, 80t/h, 10×40HQ，EXW: USD263,500. <br/>
+          <li>LB1000-4, 80t/h, 10×40HQ，FOB QD: USD280,000.<br/>
           <small>Oil burner, 40t bitumen tank, 300,000 Kcal thermal oil furnace, bag dust collector</small></li>
       </ul>
     </div>
@@ -119,12 +120,12 @@
     <div class="element home clearfix col2-3 services">
     <h3>Stationary Asphalt Mixing Plant Parameters</h3>
           <ul class="list check">
-              <li>LB1500-2, 120t/h, 9×40HQ，EXW: USD303,500.<br/>
-              <small>Oil burner, 2×40t bitumen tank, 400,000 Kcal thermal oil furnace, water film dust collector</small></li>
-              <li>LB1500-4, 120t/h, 11×40HQ，EXW: USD325,000.<br/>
+              <li>LB1500-2, 120t/h, 9×40HQ，FOB QD: USD319,000.<br/>
+              <small>Oil burner, 2×40t bitumen tank, 400,000 Kcal thermal oil furnace, water film dust filter</small></li>
+              <li>LB1500-4, 120t/h, 11×40HQ，FOB QD: USD345,000.<br/>
               <small>Oil burner, 2×40t bitumen tank, 400,000 Kcal thermal oil furnace, bag dust collector.</small></li>
-              <li>LB2000(complete container shipment), 160t/h, 16×40HQ，EXW: USD500,000.<br/>
-             <small> Oil burner, 2×40t bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</small></li>
+              <li>LB2000(complete container shipment), 160t/h, 16×40HQ，FOB QD: USD527,000.<br/>
+             <small>Oil burner, 2×40t bitumen tank, 500,000 Kcal thermal oil furnace, Bag dust collector, 30t silo of final product, Siemens element</small></li>
 
           </ul>
         </div>
@@ -212,19 +213,19 @@
 {{--客户验货--}}
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/yanhuo/yanhuo_1.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/zhanhui/zhanhui_big_1.jpg')}}" alt="" /></div>
              </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/yanhuo/yanhuo_3.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/zhanhui/zhanhui_big_2.jpg')}}" alt="" /></div>
              </div>
         </div>
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/yanhuo/yanhuo_2.jpg')}}" alt="" /></div>
+                <div class="images"><img src="{{asset('img/zhanhui/zhanhui_big_3.jpg')}}" alt="" /></div>
             </div>
         </div>
 
@@ -240,11 +241,11 @@
     </div>
     <div>
     {{Form::label('subject', 'Subject :')}}
-    {{Form::text('username',null,array('class'=>'contact_text'))}}
+    {{Form::text('subject',null,array('class'=>'contact_text'))}}
     </div>
     <div>
     {{Form::label('message', 'Message:')}}
-    {{Form::textarea('username')}}
+    {{Form::textarea('message')}}
     {{Form::submit('Send Message')}}
     </div>
 {{ Form::close() }}
