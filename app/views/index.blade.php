@@ -143,7 +143,7 @@
 
         <div class="element home clearfix col1-3 borders portfolio overflow">
             <div class="movable-content">
-                <div class="images"><img src="{{asset('img/Questionnaire.jpg')}}" alt="Questionnaire" /></div>
+                <div class="images"><img src="{{asset('img/Questionnaire_1.jpg')}}" alt="Questionnaire" /></div>
              </div>
         </div>
         <div class="element home clearfix col1-3 borders portfolio overflow">
@@ -151,38 +151,6 @@
                 <div class="images"><img src="{{asset('img/Questionnaire_2.jpg')}}" alt="Questionnaire" /></div>
              </div>
         </div>
-
-
-        <div class="element home clearfix col2-3 services">
-        <h3>Easy Neglect Question</h3>
-          <ul class="list check">
-            <li>Option of burner. According to quality and price of local fuel, generally speaking, light oil is expensive with cheap light oil burner. Heavy oil is cheap with expensive heavy oil burner, however, heavy oil burner can use light oil.</li>
-            <li>Variable requirement of environment protection in different countries. Bag dust collector is less harmful to environment.</li>
-            <li>Device of simple structure, such as light oil tank, can be fabricated in local place, then can save customer’s cost.</li>
-          </ul>
-        </div>
-
-{{--联系我们--}}
-<div class="element home clearfix col1-3 border contact no-padding">
-      <div id="contact1">
-        <div id="message1"></div>
-        <form method="post" action="{{url('mailPost')}}" name="contactform" id="contactform1" >
-          <fieldset>
-          <div class="alignleft padding-right">
-            <label for="name" accesskey="U"><span class="required">Name</span></label>
-            <input name="name" type="text" id="name" size="30" title="Name" />
-            <label for="email" accesskey="E"><span class="required">Email</span></label>
-            <input name="email" type="text" id="email" size="30" title="Email" />
-            <!--<label for="phone" accesskey="P"><span class="required">Phone</span></label>
-            <input name="phone" type="text" id="phone" size="30" title="Phone *" class="third" />-->
-          </div>
-          <label for="comments" accesskey="C"><span class="required">Comments</span></label>
-          <textarea name="comments" cols="40" rows="3" id="comments" title="Comment"></textarea>
-          <input type="submit" class="submit" id="submit" value="Submit" onFocus="if(this.blur)this.blur()" />
-          </fieldset>
-        </form>
-      </div>
-    </div>
 
 {{--客户参观工厂--}}
         <div class="element home clearfix col1-3 borders portfolio overflow">
@@ -260,41 +228,28 @@
             </div>
         </div>
 
-{{--联系我们--}}
-    <div class="element home clearfix col2-3 contact">
-      <h2>Contact Us</h2>
-      <div class="borderline"></div>
-      <p>Zhengzhou Hanvy Machinery And Equipment Co., Ltd International Trade:<br/>
-      Changchun Road11, Zhengzhou City, Henan Province,China, 450001<br />
-        </p>
-    </div>
-
-{{--联系框--}}
-    <div class="element home clearfix col1-3 border contact no-padding">
-      <div id="contact2">
-        <div id="message2"></div>
-        <form method="post" action="" name="contactform" id="contactform2">
-          <fieldset>
-          <div class="alignleft padding-right">
-          {{Form::token()}}
-            <label for="name" accesskey="U"><span class="required">Name</span></label>
-            <input name="name" type="text" id="name" size="30" title="Name" />
-            <label for="email" accesskey="E"><span class="required">Email</span></label>
-            <input name="email" type="text" id="email" size="30" title="Email" />
-            <!--<label for="phone" accesskey="P"><span class="required">Phone</span></label>
-            <input name="phone" type="text" id="phone" size="30" title="Phone *" class="third" />-->
-          </div>
-          <label for="comments" accesskey="C"><span class="required">Comments</span></label>
-          <textarea name="comments" cols="40" rows="3" id="comments" title="Comment"></textarea>
-          <input type="submit" class="submit" id="submit" value="Submit" onFocus="if(this.blur)this.blur()" />
-          </fieldset>
-        </form>
-      </div>
-    </div>
-
 </div>
 <!-- end header -->
-<footer class="centered">© 2014, Zhengzhou Hanvy Machinery And Equipment Co., Ltd.
+<footer>
+<div>
+<h3>Contact Us</h3>
+{{ Form::open(array('url' => 'mailPost')) }}
+    <div>
+    {{Form::label('email', 'E-Mail  :')}}
+    {{Form::email('email',null,array('class'=>'contact_text'))}}
+    </div>
+    <div>
+    {{Form::label('subject', 'Subject :')}}
+    {{Form::text('username',null,array('class'=>'contact_text'))}}
+    </div>
+    <div>
+    {{Form::label('message', 'Message:')}}
+    {{Form::textarea('username')}}
+    {{Form::submit('Send Message')}}
+    </div>
+{{ Form::close() }}
+</div>
+<p class="centered">© 2014, Zhengzhou Hanvy Machinery And Equipment Co., Ltd.</p>
 </footer>
 <!-- BACK TO TOP BUTTON -->
 <div id="backtotop">
