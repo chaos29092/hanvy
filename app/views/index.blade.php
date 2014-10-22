@@ -245,7 +245,7 @@
     </div>
     <div>
     {{Form::label('message', 'Message:')}}
-    {{Form::textarea('message')}}
+    {{Form::textarea('message',null,array('class'=>'contact_text'))}}
     {{Form::submit('Send Message')}}
     </div>
 {{ Form::close() }}
