@@ -20,7 +20,7 @@ Route::post('mailPost', function()
 {
     $date = Input::all();
 
-    Mail::send('emails.inquiry', array('subject'=>$date['subject'],'message'=>$date['message'],'email'=>$date['email']),function($message){
+    Mail::send('emails.inquiry', array('subject'=>$date['subject'],'mes'=>$date['mes'],'email'=>$date['email']),function($message){
         $message->to(array('178399731@qq.com','chaos29092@gmail.com'), 'inquiry')->subject('网站询盘');
     });
 

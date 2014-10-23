@@ -14,5 +14,7 @@ jQuery(window).load(function() {
 			jQuery('.infos').css({
 			display: 'inline-block',
 		});
+
+
 			
 });

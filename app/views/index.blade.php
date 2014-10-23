@@ -19,17 +19,6 @@
 <link href="{{asset('assets/css/print.css')}}" rel="stylesheet" type="text/css" media="print" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,600,800' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery-1.9.1.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery-easing-1.3.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/modernizr.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/custom.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery.gomap-1.3.2.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery.isotope.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery.ba-bbq.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery.isotope.load_home.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/jquery.jtweetsanywhere-1.3.1.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/scrollup.js')}}" type="text/javascript"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
@@ -241,15 +230,15 @@
 {{ Form::open(array('url' => 'mailPost')) }}
     <div>
     {{Form::label('email', 'E-Mail(*)  :')}}
-    {{Form::email('email',null,array('class'=>'contact_text'))}}
+    {{Form::email('email',null,array('class'=>'contact_text','required'))}}
     </div>
     <div>
     {{Form::label('subject', 'Name :')}}
     {{Form::text('subject',null,array('class'=>'contact_text'))}}
     </div>
     <div>
-    {{Form::label('message', 'Message:')}}
-    {{Form::textarea('message',null,array('class'=>'contact_text'))}}
+    {{Form::label('mes', 'Message:')}}
+    {{Form::textarea('mes',null,array('class'=>'contact_text'))}}
     </div>
     <div>{{Form::submit('Send Message')}}</div>
 {{ Form::close() }}
@@ -263,5 +252,18 @@
     <li><a id="toTop" href="#" onClick="return false">Back to Top</a></li>
   </ul>
 </div>
+</div>
+
+<script src="{{asset('assets/js/jquery-1.9.1.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery-easing-1.3.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/modernizr.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/custom.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.gomap-1.3.2.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.isotope.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.ba-bbq.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.isotope.load_home.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/jquery.jtweetsanywhere-1.3.1.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/js/scrollup.js')}}" type="text/javascript"></script>
+
 </body>
 </html>
