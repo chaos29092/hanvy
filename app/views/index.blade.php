@@ -218,7 +218,7 @@
 <div class="myWords alignleft">
 
 <div>
-<img src="{{asset('img/Business-Manager.jpg')}}" alt="Account Manager"/>
+<img src="{{asset('img/hanvyman.jpg')}}" alt="Account Manager"/>
 <p>My name is Richard Han,<br/>
 sales manager of Zhengzhou Hanvy Machinery & Equipment Co., Ltd.</p><br/>
 <p>Thanks for visit our website.</p><br/>
