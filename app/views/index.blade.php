@@ -26,7 +26,7 @@
   <div id="container" class="clearfix">
     <nav class="col1-3 no-bg element home services clients portfolio about blog contact">
       <div id="open-menu">
-        <a href="http://www.hanvygroup.com/"><img src="{{asset('img/logo.jpg')}}" alt=""/></a>
+       <img src="{{asset('img/logo.jpg')}}" alt=""/>
 
       </div>
       
@@ -218,10 +218,12 @@
 <div class="myWords alignleft">
 
 <div>
-<h3>My Words</h3>
-<img src="dsa" alt="Account Manager"/>
-<p>dsasasasdadsa</p>
-<p>dsasasaas</p>
+<img src="{{asset('img/Business-Manager.jpg')}}" alt="Account Manager"/>
+<p>My name is Richard Han,<br/>
+sales manager of Zhengzhou Hanvy Machinery & Equipment Co., Ltd.</p><br/>
+<p>Thanks for visit our website.</p><br/>
+<p>If you need talk now,please add my skype: vp05hanvyzj</p><br/>
+<p>More surprise is waiting for you, <br/>service we can supply is far more than products itself.</p>
 </div>
 </div>
 
