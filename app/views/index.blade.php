@@ -39,7 +39,7 @@
                  <li>Questionnaire assistance</li>
                  <li>Smallest mobile model: 20t/h</li>
                  <li>Smallest fixed model: 40t/h</li>
-                 <li>Credit sales service</li>
+                 <li>Loan facility</li>
                </ul>
 
       </div>
