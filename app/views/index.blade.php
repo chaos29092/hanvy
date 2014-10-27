@@ -7,10 +7,10 @@
 <meta charset="utf-8">
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="author" content="ppandp">
-<meta name="Description" content="Eagle Logistics - Responsive Retina-Ready HTML5 One-Page" />
+<meta name="author" content="chaos">
+<meta name="Description" content="Asphalt Mixing Plant, Asphalt Plant Sale, Asphalt Plant Export" />
 <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
-<title>Eagle Logistics - Responsive Retina-Ready HTML5</title>
+<title>Hanvy - Asphalt Mixing Plant</title>
 <link href="{{asset('assets/css/reset.css')}}" rel="stylesheet" type="text/css" media="screen" />
 <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" type="text/css" media="screen" />
 <!--[if gt IE 8]><!--><link href="{{asset('assets/css/retina-responsive.css')}}" rel="stylesheet" type="text/css" media="screen" /><!--<![endif]-->
@@ -26,7 +26,7 @@
   <div id="container" class="clearfix">
     <nav class="col1-3 no-bg element home services clients portfolio about blog contact">
       <div id="open-menu">
-       <img src="{{asset('img/logo.jpg')}}" alt=""/>
+       <img src="{{asset('img/logo.jpg')}}" alt="hanvy"/>
 
       </div>
       
