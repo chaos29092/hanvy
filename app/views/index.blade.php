@@ -247,6 +247,7 @@ sales manager of Zhengzhou Hanvy Machinery & Equipment Co., Ltd.</p><br/>
 </div>
 <div class="clearfix"></div>
 <p class="centered">© 2014, Zhengzhou Hanvy Machinery And Equipment Co., Ltd.</p>
+<p class="centered"><img src="{{asset('img/baomazhan.jpg')}}" alt="Shanghai New International Expo Center" /></p>
 </footer>
 <!-- BACK TO TOP BUTTON -->
 <div id="backtotop">
